@@ -440,6 +440,7 @@ section {
     align-items: center;
     gap: 40px;
     width: 346px;
+    margin-left: 0;
 }
 
 .fast_right {
@@ -467,6 +468,7 @@ section {
 
 .fast .sec_sub-tit {
     margin-bottom: 20px;
+    width: 346px;
 }
 
 .fast_txt {
