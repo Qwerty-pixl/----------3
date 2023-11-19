@@ -471,11 +471,11 @@ section {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #ad343e url();
+    background: #ad343e url(/img/about/icon.svg);
 }
 
 .fast_icon:nth-child(2) i{
-  background-image: url();
+  background-image: url(/img/about/icon.svg);
 }
 .fast_icon:last-child i{
   background-image: url();
