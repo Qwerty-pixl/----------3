@@ -435,19 +435,17 @@ section {
 }
 
 .fast_left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-}
-
-
-.fast_img-big {
     width: 50%;
 }
 
-.fast_in {
-    margin-left: 122px;
+.fast_right {
+    width: 50%;
+    padding-left: 90px;
+    align-self: center;
+}
+
+.fast_img-big {
+    width: 58%;
 }
 
 .fast_img-sm {
@@ -461,7 +459,6 @@ section {
 
 .fast .sec_sub-tit {
     margin-bottom: 20px;
-    width: 346px;
 }
 
 .fast_txt {
@@ -470,7 +467,6 @@ section {
     line-height: 24px;
     /* 150% */
     margin-bottom: 50px;
-    width: 346px;
 }
 
 .fast_icon {
@@ -779,16 +775,9 @@ footer {
     align-items: center;
     gap: 24px;
 }
-
-.logo_two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    height: 90px;
-    flex-shrink: 0;
+.logo-two{
+    
 }
-
 .item {
     border-radius: 12px;
     border: 1px solid var(--neutral-02, #F9F9F7);
@@ -796,9 +785,9 @@ footer {
 
     /* 1 */
     box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+    width: 220.909px;
     height: 90px;
     flex-shrink: 0;
-    padding: 33px;
 }
 
 .logo_tit {
@@ -1406,11 +1395,12 @@ svg {
     border: 1px solid var(--neutral-03, #DBDFD0);
     background: var(--neutral-01, #FFF);
     display: flex;
-    width: 350px;
+    width: 100%;
     height: 60px;
     padding: 0px 24px;
     align-items: center;
     gap: 10px;
+    margin-bottom: 24px;
 }
 
 .inputx {
