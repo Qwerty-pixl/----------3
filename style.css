@@ -552,6 +552,9 @@ section {
 }
 
 /* blog */
+.blog{
+    background: var(--neutral-02, #F9F9F7);
+}
 .blog_top {
     align-items: center;
     margin-bottom: 64px;
@@ -575,11 +578,16 @@ section {
 .blog_card {
     border-radius: 12px;
     overflow: hidden;
+    transition: 0.3s;
+}
+.blog_card:hover{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); 
 }
 
 .blog_img {
     display: inline-block;
     border-radius: 12px;
+    width: 100%;
 }
 
 footer {
