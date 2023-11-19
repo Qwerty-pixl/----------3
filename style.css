@@ -1402,6 +1402,11 @@ svg {
     gap: 10px;
     margin-bottom: 24px;
 }
+.inputx {
+    justify-content: start;
+    align-items: start;
+}
+
 
 .inputx {
     color: var(--neutral-05, #737865);
