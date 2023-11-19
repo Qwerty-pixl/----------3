@@ -894,6 +894,7 @@ footer {
 .input {
     line-height: 56px;
     font-size: 16px;
+    color: var(--neutral-05, #737865);
 }
 
 .form_input {
@@ -1375,7 +1376,7 @@ svg {
     display: inline-flex;
     align-items: flex-start;
     gap: 90px;
-    margin-left: 300px;
+    justify-content: center;
 }
 
 .frame_txt {
@@ -1402,15 +1403,9 @@ svg {
     gap: 10px;
     margin-bottom: 24px;
 }
-.inputx {
-    justify-content: start;
-    align-items: start;
-}
-
 
 .inputx {
     color: var(--neutral-05, #737865);
-    text-align: center;
 
     /* Body/16px/Regular */
     font-family: DM Sans;
