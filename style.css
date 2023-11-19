@@ -362,6 +362,7 @@ section {
     transition: 0.3s;
     border-radius: 12px;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 
 .offer_card:hover {
@@ -542,6 +543,10 @@ section {
     width: calc(50% - 12px);
     
 }
+.blog_card{
+    border-radius: 12px;
+    overflow: hidden;
+}
 .blog_img{
     display: inline-block;
     border-radius: 12px;
@@ -599,8 +604,8 @@ footer {
 .footer_logo {
     display: block;
     display: flex;
-    width: 56px;
-    height: 55px;
+    justify-content: start;
+    align-items: center;
 }
 
 .footer_img {
@@ -671,20 +676,15 @@ footer {
     display: block;
     padding: 215px 0;
 }
-.logo_img{
-
-}
 
 .logo_tit {
-    display: flex;
-    width: 182.667px;
-    height: 38.667px;
-    padding: 4px 0px 4.667px 41.333px;
-    justify-content: flex-end;
-    align-items: flex-end;
+    
     flex-shrink: 0;
 }
-
+.logo_img{
+    width: 56px;
+    height: 56px;
+}
 
 .feel_top .sec_sub-tit {
     max-width: 596px;
@@ -1177,6 +1177,10 @@ svg {
     border-radius: 12px;
     background: var(--neutral-02, #f9f9f7);
     padding: 45px 35px 35px;
+    transition: 0.3s;
+}
+.our_card:hover{
+    box-shadow: #182226;
 }
 
 .our_tit {
