@@ -391,6 +391,7 @@ section {
     border-radius: 12px;
     padding-bottom: 20px;
     overflow: hidden;
+    margin-bottom: 24px;
 }
 
 .offer_card:hover {
@@ -402,20 +403,28 @@ section {
 }
 
 .offer_tit {
-    color: #2c2f24;
-    font-size: 24px;
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+
+    /* Body/20px/Bold */
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 30px;
-    /* 125% */
-    letter-spacing: -0.72px;
+    line-height: 26px;
+    /* 130% */
     margin-bottom: 15px;
-    padding-left: 10px;
 }
 
 .offer_txt {
-    padding-left: 10px;
-    color: #414536;
+    color: var(--neutral-06, #414536);
+    text-align: center;
+
+    /* Body/16px/Regular */
+    font-family: "DM Sans";
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
     /* 150% */
 }
@@ -553,6 +562,21 @@ section {
     /* 150% */
 }
 
+.zena {
+    color: #AD343E;
+    text-align: center;
+
+    /* Headline/H3 */
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 125% */
+    letter-spacing: -0.72px;
+    margin-bottom: 15px;
+}
+
 /* blog */
 .blog {
     background: var(--neutral-02, #F9F9F7);
@@ -566,7 +590,8 @@ section {
 .blog_text {
     padding: 30px 25px 14px;
 }
-.blog_textt{
+
+.blog_textt {
     padding: 30px 25px 67px;
 }
 
@@ -599,7 +624,8 @@ section {
     overflow: hidden;
     transition: 0.3s;
 }
-.blog_card-big:hover{
+
+.blog_card-big:hover {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
