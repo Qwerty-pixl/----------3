@@ -474,12 +474,12 @@ section {
     background: #ad343e url() center no-repeat;
 }
 
-/* .fast_icon:nth-child(2) i{
+.fast_icon:nth-child(2) i{
   background-image: url();
 }
 .fast_icon:last-child i{
   background-image: url();
-} */
+}
 .fast_icon span {
     padding-left: 20px;
     color: #2c2f24;
