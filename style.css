@@ -86,11 +86,13 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-.desc_txt{
+
+.desc_txt {
     width: 632px;
     justify-content: center;
     align-items: center;
 }
+
 .dn {
     display: none;
 }
@@ -541,13 +543,15 @@ section {
 
 .blog_right .blog_card {
     width: calc(50% - 12px);
-    
+
 }
-.blog_card{
+
+.blog_card {
     border-radius: 12px;
     overflow: hidden;
 }
-.blog_img{
+
+.blog_img {
     display: inline-block;
     border-radius: 12px;
 }
@@ -601,11 +605,16 @@ footer {
     /* 150% */
 }
 
+.footer_txt {
+    margin-bottom: 30px;
+}
+
 .footer_logo {
     display: block;
     display: flex;
     justify-content: start;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .footer_img {
@@ -678,12 +687,21 @@ footer {
 }
 
 .logo_tit {
-    
+    color: #FFF;
+    font-family: "Playfair Display";
+    font-size: 32.67px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 29.333px;
+    /* 89.787% */
+    letter-spacing: -0.4px;
     flex-shrink: 0;
 }
-.logo_img{
+
+.logo_img {
     width: 56px;
     height: 56px;
+    margin-right: 10px;
 }
 
 .feel_top .sec_sub-tit {
@@ -1179,7 +1197,8 @@ svg {
     padding: 45px 35px 35px;
     transition: 0.3s;
 }
-.our_card:hover{
+
+.our_card:hover {
     box-shadow: #182226;
 }
 
