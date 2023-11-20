@@ -1,3 +1,3 @@
-let name = prompt(" Enter your age ")
-alert("bye" + name)
- 
+document.querySelector('.js-btn').addEventListener('click', function(){}){
+alert('Кнопка нажата')
+}
