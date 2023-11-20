@@ -1,2 +1,2 @@
-let name = prompt(" enter your old")
+let name = prompt("Enter your age ")
 alert("bye" + name)
