@@ -1452,3 +1452,8 @@ svg {
     /* 125% */
     letter-spacing: -0.72px;
 }
+
+
+.js-btn.active{
+    background: blue;
+}
