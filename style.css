@@ -775,10 +775,12 @@ footer {
     align-items: center;
     gap: 24px;
 }
-.logo_two{
+
+.logo_two {
     display: flex;
     gap: 24px;
 }
+
 .item {
     border-radius: 12px;
     border: 1px solid var(--neutral-02, #F9F9F7);
