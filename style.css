@@ -775,8 +775,9 @@ footer {
     align-items: center;
     gap: 24px;
 }
-.logo-two{
-    
+.logo_two{
+    display: flex;
+    gap: 24px;
 }
 .item {
     border-radius: 12px;
@@ -785,9 +786,10 @@ footer {
 
     /* 1 */
     box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
-    width: 220.909px;
     height: 90px;
     flex-shrink: 0;
+    padding: 33px;
+    margin-bottom: 24px;
 }
 
 .logo_tit {
