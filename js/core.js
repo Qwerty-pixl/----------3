@@ -1,3 +1,3 @@
-document.querySelector('.js-btn').addEventListener('click', function(){}){
-alert('Кнопка нажата')
-}
+document.querySelector('.js-btn').addEventListener('click', function () { 
+    document.querySelector('.js-btn').classList.add('active')
+})
