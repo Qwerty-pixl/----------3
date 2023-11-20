@@ -13,38 +13,54 @@
 		rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/media.css">
+	<!DOCTYPE html>
+	<html lang="ru">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Дата и время</title>
+	</head>
+	<script>
+		document.querySelector('.js-btn').addEventListener('click', function () { }){
+			alert('Кнопка нажата')
+		}
+	</script>
+	</body>
+
+	</html>
 </head>
 
 <body>
 	<header>
-        <div class="container">
-            <div class="head flex">
-                <a href="index.html" class="head_logo">
-                    <img src="/img/Logo (3).jpg" alt="">
-                </a>
-                <nav>
-                    <ul class="menu flex">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a href="menu.html">Menu</a>
-                        </li>
-                        <li>
-                            <a href="blog.html">Pages</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <a href="book.html" class="btn">Book A Table</a>
-            </div>
-        </div>
-    </header>
+		<div class="container">
+			<div class="head flex">
+				<a href="index.html" class="head_logo">
+					<img src="/img/Logo (3).jpg" alt="">
+				</a>
+				<nav>
+					<ul class="menu flex">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+						<li>
+							<a href="menu.html">Menu</a>
+						</li>
+						<li>
+							<a href="blog.html">Pages</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="book.html" class="btn">Book A Table</a>
+			</div>
+		</div>
+	</header>
 
 	<section class="form-wrap">
 		<div class="container">
@@ -84,7 +100,7 @@
 								<input class="input" type="text" placeholder="1 Person">
 							</div>
 						</div>
-						<button class="btn btn__red" type="submit">Book A Table</button>
+						<button class="btn btn__red js-btn" type="submit">Book A Table</button>
 					</div>
 				</form>
 			</div>
