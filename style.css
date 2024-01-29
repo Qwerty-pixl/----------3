@@ -120,6 +120,7 @@ section {
     font-weight: 500;
     line-height: 60.5px;
     /* 110% */
+
 }
 
 .sec_desc {
@@ -754,10 +755,14 @@ footer {
 
 .footer_ic {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background: #ad343e url(/facebook.svg) center no-repeat;
+    transition: 0.3s;
+}
+.footer_ic:hover{
+    transform: rotate(360deg)
 }
 
 
